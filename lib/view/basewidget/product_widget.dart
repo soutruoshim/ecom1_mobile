@@ -37,7 +37,7 @@ class ProductWidget extends StatelessWidget {
           Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
             // Product Image
             Container(
-              height: 150,
+              height: 147,
               decoration: BoxDecoration(
                 color: ColorResources.getIconBg(context),
                 borderRadius: const BorderRadius.only(topLeft: Radius.circular(10), topRight: Radius.circular(10)),
