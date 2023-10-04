@@ -1,9 +1,9 @@
 
 import 'package:dio/dio.dart';
-import 'package:flutter_sixvalley_ecommerce/data/datasource/remote/dio/dio_client.dart';
-import 'package:flutter_sixvalley_ecommerce/data/datasource/remote/exception/api_error_handler.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/base/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/app_constants.dart';
+import 'package:srhdp_psharmuslim/data/datasource/remote/dio/dio_client.dart';
+import 'package:srhdp_psharmuslim/data/datasource/remote/exception/api_error_handler.dart';
+import 'package:srhdp_psharmuslim/data/model/response/base/api_response.dart';
+import 'package:srhdp_psharmuslim/utill/app_constants.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:http/http.dart' as http;
 import 'dart:async';

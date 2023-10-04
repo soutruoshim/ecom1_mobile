@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/base/error_response.dart';
-import 'package:flutter_sixvalley_ecommerce/main.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/show_custom_snakbar.dart';
+import 'package:srhdp_psharmuslim/data/model/response/base/error_response.dart';
+import 'package:srhdp_psharmuslim/main.dart';
+import 'package:srhdp_psharmuslim/view/basewidget/show_custom_snakbar.dart';
 
 class ApiErrorHandler {
   static dynamic getMessage(error) {

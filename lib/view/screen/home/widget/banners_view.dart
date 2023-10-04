@@ -1,16 +1,16 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/product_model.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/banner_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/brand_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/category_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/splash_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/top_seller_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/color_resources.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/product/brand_and_category_product_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/product/product_details_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/topSeller/top_seller_product_screen.dart';
+import 'package:srhdp_psharmuslim/data/model/response/product_model.dart';
+import 'package:srhdp_psharmuslim/provider/banner_provider.dart';
+import 'package:srhdp_psharmuslim/provider/brand_provider.dart';
+import 'package:srhdp_psharmuslim/provider/category_provider.dart';
+import 'package:srhdp_psharmuslim/provider/splash_provider.dart';
+import 'package:srhdp_psharmuslim/provider/top_seller_provider.dart';
+import 'package:srhdp_psharmuslim/utill/color_resources.dart';
+import 'package:srhdp_psharmuslim/utill/images.dart';
+import 'package:srhdp_psharmuslim/view/screen/product/brand_and_category_product_screen.dart';
+import 'package:srhdp_psharmuslim/view/screen/product/product_details_screen.dart';
+import 'package:srhdp_psharmuslim/view/screen/topSeller/top_seller_product_screen.dart';
 import 'package:provider/provider.dart';
 import 'package:shimmer/shimmer.dart';
 class BannersView extends StatelessWidget {

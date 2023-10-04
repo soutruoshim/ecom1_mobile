@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/product_details_model.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/cart_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/color_resources.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/custom_themes.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/show_custom_snakbar.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/cart/cart_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/product/widget/cart_bottom_sheet.dart';
+import 'package:srhdp_psharmuslim/data/model/response/product_details_model.dart';
+import 'package:srhdp_psharmuslim/localization/language_constrants.dart';
+import 'package:srhdp_psharmuslim/provider/cart_provider.dart';
+import 'package:srhdp_psharmuslim/utill/color_resources.dart';
+import 'package:srhdp_psharmuslim/utill/custom_themes.dart';
+import 'package:srhdp_psharmuslim/utill/dimensions.dart';
+import 'package:srhdp_psharmuslim/utill/images.dart';
+import 'package:srhdp_psharmuslim/view/basewidget/show_custom_snakbar.dart';
+import 'package:srhdp_psharmuslim/view/screen/cart/cart_screen.dart';
+import 'package:srhdp_psharmuslim/view/screen/product/widget/cart_bottom_sheet.dart';
 import 'package:provider/provider.dart';
 
 class BottomCartView extends StatefulWidget {

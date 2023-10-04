@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/color_resources.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
+import 'package:srhdp_psharmuslim/utill/color_resources.dart';
+import 'package:srhdp_psharmuslim/utill/dimensions.dart';
 import 'package:shimmer/shimmer.dart';
 
 

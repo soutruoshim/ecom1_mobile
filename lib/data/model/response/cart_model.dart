@@ -1,4 +1,4 @@
-import 'package:flutter_sixvalley_ecommerce/data/model/response/product_model.dart';
+import 'package:srhdp_psharmuslim/data/model/response/product_model.dart';
 class CartModel {
   int? _id;
   int? _productId;

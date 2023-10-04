@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/base/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/product_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/repository/search_repo.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/api_checker.dart';
+import 'package:srhdp_psharmuslim/data/model/response/base/api_response.dart';
+import 'package:srhdp_psharmuslim/data/model/response/product_model.dart';
+import 'package:srhdp_psharmuslim/data/repository/search_repo.dart';
+import 'package:srhdp_psharmuslim/helper/api_checker.dart';
 
 class SearchProvider with ChangeNotifier {
   final SearchRepo? searchRepo;

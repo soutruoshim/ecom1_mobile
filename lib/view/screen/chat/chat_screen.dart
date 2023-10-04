@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/body/message_body.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/chat_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/color_resources.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/custom_themes.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/custom_app_bar.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/no_internet_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/paginated_list_view.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/chat/widget/message_bubble.dart';
+import 'package:srhdp_psharmuslim/data/model/body/message_body.dart';
+import 'package:srhdp_psharmuslim/provider/chat_provider.dart';
+import 'package:srhdp_psharmuslim/utill/color_resources.dart';
+import 'package:srhdp_psharmuslim/utill/custom_themes.dart';
+import 'package:srhdp_psharmuslim/utill/dimensions.dart';
+import 'package:srhdp_psharmuslim/view/basewidget/custom_app_bar.dart';
+import 'package:srhdp_psharmuslim/view/basewidget/no_internet_screen.dart';
+import 'package:srhdp_psharmuslim/view/basewidget/paginated_list_view.dart';
+import 'package:srhdp_psharmuslim/view/screen/chat/widget/message_bubble.dart';
 import 'package:provider/provider.dart';
 
 class ChatScreen extends StatefulWidget {

@@ -1,15 +1,15 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/body/login_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/body/register_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/base/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/base/error_response.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/response_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/social_login_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/repository/auth_repo.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/api_checker.dart';
-import 'package:flutter_sixvalley_ecommerce/main.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/show_custom_snakbar.dart';
+import 'package:srhdp_psharmuslim/data/model/body/login_model.dart';
+import 'package:srhdp_psharmuslim/data/model/body/register_model.dart';
+import 'package:srhdp_psharmuslim/data/model/response/base/api_response.dart';
+import 'package:srhdp_psharmuslim/data/model/response/base/error_response.dart';
+import 'package:srhdp_psharmuslim/data/model/response/response_model.dart';
+import 'package:srhdp_psharmuslim/data/model/response/social_login_model.dart';
+import 'package:srhdp_psharmuslim/data/repository/auth_repo.dart';
+import 'package:srhdp_psharmuslim/helper/api_checker.dart';
+import 'package:srhdp_psharmuslim/main.dart';
+import 'package:srhdp_psharmuslim/view/basewidget/show_custom_snakbar.dart';
 
 class AuthProvider with ChangeNotifier {
   final AuthRepo? authRepo;

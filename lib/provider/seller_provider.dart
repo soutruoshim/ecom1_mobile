@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/base/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/seller_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/repository/seller_repo.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/api_checker.dart';
+import 'package:srhdp_psharmuslim/data/model/response/base/api_response.dart';
+import 'package:srhdp_psharmuslim/data/model/response/seller_model.dart';
+import 'package:srhdp_psharmuslim/data/repository/seller_repo.dart';
+import 'package:srhdp_psharmuslim/helper/api_checker.dart';
 
 class SellerProvider extends ChangeNotifier {
   final SellerRepo? sellerRepo;

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/address_model.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/color_resources.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/custom_themes.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
+import 'package:srhdp_psharmuslim/data/model/response/address_model.dart';
+import 'package:srhdp_psharmuslim/utill/color_resources.dart';
+import 'package:srhdp_psharmuslim/utill/custom_themes.dart';
+import 'package:srhdp_psharmuslim/utill/images.dart';
 class AddressListPage extends StatelessWidget {
   final AddressModel? address;
   const AddressListPage({Key? key, this.address}) : super(key: key);

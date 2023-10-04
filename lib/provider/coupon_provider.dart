@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/base/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/coupon_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/repository/coupon_repo.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/price_converter.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/show_custom_snakbar.dart';
+import 'package:srhdp_psharmuslim/data/model/response/base/api_response.dart';
+import 'package:srhdp_psharmuslim/data/model/response/coupon_model.dart';
+import 'package:srhdp_psharmuslim/data/repository/coupon_repo.dart';
+import 'package:srhdp_psharmuslim/helper/price_converter.dart';
+import 'package:srhdp_psharmuslim/localization/language_constrants.dart';
+import 'package:srhdp_psharmuslim/view/basewidget/show_custom_snakbar.dart';
 
 class CouponProvider extends ChangeNotifier {
   final CouponRepo? couponRepo;

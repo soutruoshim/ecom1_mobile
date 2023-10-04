@@ -1,15 +1,15 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/social_login_model.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/main.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/auth_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/facebook_login_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/google_sign_in_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/splash_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/theme_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/dashboard/dashboard_screen.dart';
+import 'package:srhdp_psharmuslim/data/model/response/social_login_model.dart';
+import 'package:srhdp_psharmuslim/localization/language_constrants.dart';
+import 'package:srhdp_psharmuslim/main.dart';
+import 'package:srhdp_psharmuslim/provider/auth_provider.dart';
+import 'package:srhdp_psharmuslim/provider/facebook_login_provider.dart';
+import 'package:srhdp_psharmuslim/provider/google_sign_in_provider.dart';
+import 'package:srhdp_psharmuslim/provider/splash_provider.dart';
+import 'package:srhdp_psharmuslim/provider/theme_provider.dart';
+import 'package:srhdp_psharmuslim/utill/images.dart';
+import 'package:srhdp_psharmuslim/view/screen/dashboard/dashboard_screen.dart';
 import 'package:provider/provider.dart';
 
 import 'mobile_verify_screen.dart';

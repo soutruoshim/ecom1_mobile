@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/order_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
+import 'package:srhdp_psharmuslim/provider/order_provider.dart';
+import 'package:srhdp_psharmuslim/utill/dimensions.dart';
 import 'package:provider/provider.dart';
 
 class CustomCheckBox extends StatelessWidget {

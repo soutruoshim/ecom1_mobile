@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/shipping_method_model.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/price_converter.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/cart_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/theme_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
+import 'package:srhdp_psharmuslim/data/model/response/shipping_method_model.dart';
+import 'package:srhdp_psharmuslim/helper/price_converter.dart';
+import 'package:srhdp_psharmuslim/localization/language_constrants.dart';
+import 'package:srhdp_psharmuslim/provider/cart_provider.dart';
+import 'package:srhdp_psharmuslim/provider/theme_provider.dart';
+import 'package:srhdp_psharmuslim/utill/dimensions.dart';
 import 'package:provider/provider.dart';
 
 class ShippingMethodBottomSheet extends StatefulWidget {

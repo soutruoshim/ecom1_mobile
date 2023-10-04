@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/notification_model.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/splash_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/custom_themes.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
+import 'package:srhdp_psharmuslim/data/model/response/notification_model.dart';
+import 'package:srhdp_psharmuslim/provider/splash_provider.dart';
+import 'package:srhdp_psharmuslim/utill/custom_themes.dart';
+import 'package:srhdp_psharmuslim/utill/dimensions.dart';
+import 'package:srhdp_psharmuslim/utill/images.dart';
 import 'package:provider/provider.dart';
 
 class NotificationDialog extends StatelessWidget {

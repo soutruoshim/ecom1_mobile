@@ -1,9 +1,9 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/order_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/custom_themes.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
+import 'package:srhdp_psharmuslim/localization/language_constrants.dart';
+import 'package:srhdp_psharmuslim/provider/order_provider.dart';
+import 'package:srhdp_psharmuslim/utill/custom_themes.dart';
+import 'package:srhdp_psharmuslim/utill/dimensions.dart';
 
 class PaymentInfo extends StatelessWidget {
   final OrderProvider? order;

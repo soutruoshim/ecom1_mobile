@@ -1,13 +1,13 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/support_reply_model.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/api_checker.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/date_converter.dart';
+import 'package:srhdp_psharmuslim/data/model/response/support_reply_model.dart';
+import 'package:srhdp_psharmuslim/helper/api_checker.dart';
+import 'package:srhdp_psharmuslim/helper/date_converter.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/body/support_ticket_body.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/base/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/base/error_response.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/support_ticket_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/repository/support_ticket_repo.dart';
+import 'package:srhdp_psharmuslim/data/model/body/support_ticket_body.dart';
+import 'package:srhdp_psharmuslim/data/model/response/base/api_response.dart';
+import 'package:srhdp_psharmuslim/data/model/response/base/error_response.dart';
+import 'package:srhdp_psharmuslim/data/model/response/support_ticket_model.dart';
+import 'package:srhdp_psharmuslim/data/repository/support_ticket_repo.dart';
 
 class SupportTicketProvider extends ChangeNotifier {
   final SupportTicketRepo? supportTicketRepo;

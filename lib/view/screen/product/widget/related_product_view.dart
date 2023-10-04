@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/product_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/product_shimmer.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/product_widget.dart';
+import 'package:srhdp_psharmuslim/provider/product_provider.dart';
+import 'package:srhdp_psharmuslim/view/basewidget/product_shimmer.dart';
+import 'package:srhdp_psharmuslim/view/basewidget/product_widget.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:provider/provider.dart';
 

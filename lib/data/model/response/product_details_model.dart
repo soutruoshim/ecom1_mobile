@@ -1,5 +1,5 @@
-import 'package:flutter_sixvalley_ecommerce/data/model/response/product_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/seller_model.dart';
+import 'package:srhdp_psharmuslim/data/model/response/product_model.dart';
+import 'package:srhdp_psharmuslim/data/model/response/seller_model.dart';
 
 class ProductDetailsModel {
   int? _id;

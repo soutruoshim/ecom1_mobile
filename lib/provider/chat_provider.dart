@@ -1,12 +1,12 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/body/message_body.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/base/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/chat_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/message_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/repository/chat_repo.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/api_checker.dart';
-import 'package:flutter_sixvalley_ecommerce/main.dart';
+import 'package:srhdp_psharmuslim/data/model/body/message_body.dart';
+import 'package:srhdp_psharmuslim/data/model/response/base/api_response.dart';
+import 'package:srhdp_psharmuslim/data/model/response/chat_model.dart';
+import 'package:srhdp_psharmuslim/data/model/response/message_model.dart';
+import 'package:srhdp_psharmuslim/data/repository/chat_repo.dart';
+import 'package:srhdp_psharmuslim/helper/api_checker.dart';
+import 'package:srhdp_psharmuslim/main.dart';
 
 
 class ChatProvider extends ChangeNotifier {

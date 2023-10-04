@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/home_category_product_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/repository/home_category_product_repo.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/base/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/api_checker.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/product_model.dart';
+import 'package:srhdp_psharmuslim/data/model/response/home_category_product_model.dart';
+import 'package:srhdp_psharmuslim/data/repository/home_category_product_repo.dart';
+import 'package:srhdp_psharmuslim/data/model/response/base/api_response.dart';
+import 'package:srhdp_psharmuslim/helper/api_checker.dart';
+import 'package:srhdp_psharmuslim/data/model/response/product_model.dart';
 
 
 class HomeCategoryProductProvider extends ChangeNotifier {

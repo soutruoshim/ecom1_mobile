@@ -2,17 +2,17 @@
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/body/selected_shipping_type.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/base/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/base/error_response.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/cart_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/chosen_shipping_method.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/product_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/response_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/shipping_method_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/shipping_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/repository/cart_repo.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/api_checker.dart';
+import 'package:srhdp_psharmuslim/data/model/body/selected_shipping_type.dart';
+import 'package:srhdp_psharmuslim/data/model/response/base/api_response.dart';
+import 'package:srhdp_psharmuslim/data/model/response/base/error_response.dart';
+import 'package:srhdp_psharmuslim/data/model/response/cart_model.dart';
+import 'package:srhdp_psharmuslim/data/model/response/chosen_shipping_method.dart';
+import 'package:srhdp_psharmuslim/data/model/response/product_model.dart';
+import 'package:srhdp_psharmuslim/data/model/response/response_model.dart';
+import 'package:srhdp_psharmuslim/data/model/response/shipping_method_model.dart';
+import 'package:srhdp_psharmuslim/data/model/response/shipping_model.dart';
+import 'package:srhdp_psharmuslim/data/repository/cart_repo.dart';
+import 'package:srhdp_psharmuslim/helper/api_checker.dart';
 
 class CartProvider extends ChangeNotifier {
   final CartRepo? cartRepo;

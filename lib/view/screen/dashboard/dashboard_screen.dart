@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/network_info.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/splash_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/chat/inbox_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/home/home_screens.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/more/more_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/notification/notification_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/screen/order/order_screen.dart';
+import 'package:srhdp_psharmuslim/helper/network_info.dart';
+import 'package:srhdp_psharmuslim/provider/splash_provider.dart';
+import 'package:srhdp_psharmuslim/view/screen/chat/inbox_screen.dart';
+import 'package:srhdp_psharmuslim/localization/language_constrants.dart';
+import 'package:srhdp_psharmuslim/utill/images.dart';
+import 'package:srhdp_psharmuslim/view/screen/home/home_screens.dart';
+import 'package:srhdp_psharmuslim/view/screen/more/more_screen.dart';
+import 'package:srhdp_psharmuslim/view/screen/notification/notification_screen.dart';
+import 'package:srhdp_psharmuslim/view/screen/order/order_screen.dart';
 import 'package:provider/provider.dart';
 
 class DashBoardScreen extends StatefulWidget {

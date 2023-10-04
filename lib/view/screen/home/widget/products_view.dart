@@ -1,12 +1,12 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/product_model.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/product_type.dart';
-import 'package:flutter_sixvalley_ecommerce/provider/product_provider.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/no_internet_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/product_shimmer.dart';
-import 'package:flutter_sixvalley_ecommerce/view/basewidget/product_widget.dart';
+import 'package:srhdp_psharmuslim/data/model/response/product_model.dart';
+import 'package:srhdp_psharmuslim/helper/product_type.dart';
+import 'package:srhdp_psharmuslim/provider/product_provider.dart';
+import 'package:srhdp_psharmuslim/utill/dimensions.dart';
+import 'package:srhdp_psharmuslim/view/basewidget/no_internet_screen.dart';
+import 'package:srhdp_psharmuslim/view/basewidget/product_shimmer.dart';
+import 'package:srhdp_psharmuslim/view/basewidget/product_widget.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:provider/provider.dart';
 

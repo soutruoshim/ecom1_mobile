@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_sixvalley_ecommerce/data/datasource/remote/dio/dio_client.dart';
-import 'package:flutter_sixvalley_ecommerce/data/datasource/remote/exception/api_error_handler.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/body/support_ticket_body.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response/base/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/app_constants.dart';
+import 'package:srhdp_psharmuslim/data/datasource/remote/dio/dio_client.dart';
+import 'package:srhdp_psharmuslim/data/datasource/remote/exception/api_error_handler.dart';
+import 'package:srhdp_psharmuslim/data/model/body/support_ticket_body.dart';
+import 'package:srhdp_psharmuslim/data/model/response/base/api_response.dart';
+import 'package:srhdp_psharmuslim/utill/app_constants.dart';
 
 class SupportTicketRepo {
   final DioClient? dioClient;
