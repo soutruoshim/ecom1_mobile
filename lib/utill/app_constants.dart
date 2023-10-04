@@ -3,7 +3,7 @@ import 'package:srhdp_psharmuslim/data/model/response/language_model.dart';
 class AppConstants {
   static const String appName = 'Pshar Muslim';
   static const String appVersion = '14.0';
-  static const String baseUrl = 'https://6valley.6amtech.com';
+  static const String baseUrl = 'https://dev.phsarmuslim.com';
   static const String userId = 'userId';
   static const String name = 'name';
   static const String categoriesUri = '/api/v1/categories';
@@ -138,6 +138,6 @@ class AppConstants {
 
   static List<LanguageModel> languages = [
     LanguageModel(imageUrl: '', languageName: 'English', countryCode: 'US', languageCode: 'en'),
-    LanguageModel(imageUrl: '', languageName: 'Arabic', countryCode: 'SA', languageCode: 'ar'),
+    LanguageModel(imageUrl: '', languageName: 'Khmer', countryCode: 'KH', languageCode: 'kh'),
   ];
 }

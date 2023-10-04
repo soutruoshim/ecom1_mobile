@@ -33,7 +33,7 @@ class DashBoardScreenState extends State<DashBoardScreen> {
 
     _screens = [
       const HomePage(),
-      //singleVendor?const OrderScreen(isBacButtonExist: false): const InboxScreen(isBackButtonExist: false) ,
+      singleVendor?const OrderScreen(isBacButtonExist: false): const InboxScreen(isBackButtonExist: false) ,
       singleVendor? const NotificationScreen(isBacButtonExist: false): const OrderScreen(isBacButtonExist: false),
       singleVendor? const MoreScreen(): const NotificationScreen(isBacButtonExist: false),
       singleVendor?const SizedBox(): const MoreScreen(),
@@ -101,10 +101,10 @@ class DashBoardScreenState extends State<DashBoardScreen> {
 
     if(!isSingleVendor){
       list.add(_barItem(Images.homeImage, getTranslated('home', context), 0));
-      //list.add(_barItem(Images.messageImage, getTranslated('inbox', context), 1));
-      list.add(_barItem(Images.shoppingImage, getTranslated('orders', context), 1));
-      list.add(_barItem(Images.notification, getTranslated('notification', context), 2));
-      list.add(_barItem(Images.moreImage, getTranslated('more', context), 3));
+      list.add(_barItem(Images.messageImage, getTranslated('inbox', context), 1));
+      list.add(_barItem(Images.shoppingImage, getTranslated('orders', context), 2));
+      list.add(_barItem(Images.notification, getTranslated('notification', context), 3));
+      list.add(_barItem(Images.moreImage, getTranslated('more', context), 4));
     }else{
       list.add(_barItem(Images.homeImage, getTranslated('home', context), 0));
       list.add(_barItem(Images.shoppingImage, getTranslated('orders', context), 1));
