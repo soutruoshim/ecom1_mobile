@@ -44,7 +44,7 @@ class _OrderDetailsWidgetState extends State<OrderDetailsWidget> {
     _port.listen((dynamic data) {
       // setState((){ });
     });
-    FlutterDownloader.registerCallback(downloadCallback as DownloadCallback);
+    FlutterDownloader.registerCallback(downloadCallback);
   }
 
   @override
@@ -54,7 +54,7 @@ class _OrderDetailsWidgetState extends State<OrderDetailsWidget> {
   }
 
   @pragma('vm:entry-point')
-  static void downloadCallback(String id, DownloadTaskStatus status, int progress) {
+  static void downloadCallback(String id, int status, int progress) {
     final SendPort? send = IsolateNameServer.lookupPortByName('downloader_send_port');
     send!.send([id, status, progress]);
   }
